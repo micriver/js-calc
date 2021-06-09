@@ -1,0 +1,100 @@
+* {
+  /* font-family: "Times New Roman"; */
+  font-family: "Arial";
+}
+
+button {
+  box-shadow: 0px 0px 0px transparent;
+  border: 1px solid black;
+}
+
+.calculator-body {
+  display: flex;
+  flex-wrap: wrap;
+  border: solid 1px black;
+  width: 400px;
+  height: 600px;
+}
+
+.button {
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*  */
+  background-color: rgb(216, 216, 216);
+  color: black;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 20px 5px;
+  width: 100px;
+}
+
+.button:hover {
+  background-color: rgba(216, 216, 216, 0.5);
+}
+
+.operation {
+  background-color: orange;
+  color: white;
+}
+
+.operation:hover {
+  background-color: rgb(255, 165, 0, 0.5);
+}
+
+.result-screen {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  background-color: black;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 15px 15px;
+  /* width: 370px; */
+  width: 400px;
+  box-shadow: 0px 0px 0px transparent;
+  border: 0px solid black;
+  /* text-align: right; */
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1;
+}
+
+.clear-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*  */
+  background-color: rgb(216, 216, 216);
+  color: black;
+  font-size: 40px;
+  padding: 20px 5px;
+  width: 200px;
+}
+
+.zero-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*  */
+  background-color: rgb(216, 216, 216);
+  color: black;
+  font-size: 40px;
+  padding: 20px 5px;
+  width: 300px;
+}
+
+/* 
+
+resources:
+image overlay hover: https://www.w3schools.com/howto/howto_css_image_overlay.asp
+html symbols: https://www.toptal.com/designers/htmlarrows/math/
+placeholder text: https://www.w3schools.com/howto/howto_css_placeholder.asp
+
+*/
